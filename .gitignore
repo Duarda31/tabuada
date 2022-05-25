@@ -1,18 +1,21 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+using System;
 
-# Other files and folders
-.settings/
+public class Program;
+{
+    public static void Main()
+    {
+         int i;
+            int resultado;
+            Console.WriteLine("insira o valor");
+            int tabuada = Int32.Parse((Console.ReadLine()));
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+            for (i = 0; i <= 10; i++){
+            {
+                resultado = tabuada * i;
+                Console.WriteLine(resultado);
+              
+            }
+            Console.ReadKey();
+            
+     }
+}
